@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//Route for Laravel Log Viewer
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+// Need hide behind admin authenication

@@ -163,6 +163,9 @@ return [
         //laravelcollective/html
         Collective\Html\HtmlServiceProvider::class,
 
+        //Laravel 5 log viewer
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
