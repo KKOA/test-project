@@ -21,3 +21,5 @@ yarn-error.log
 #ignore generate json files
 /public/mix-manifest.json
 package-lock.json
+
+composer.lock
