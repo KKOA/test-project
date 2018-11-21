@@ -15,4 +15,8 @@ mix
     .js('resources/js/app.js', 'public/js')
     .js('resources/js/jquery-ui.js', 'public/js/vendor')
     .sass('resources/sass/app.scss', 'public/css')
-    .sass('resources/sass/jquery-ui.scss', 'public/css/vendor');
+    .sass('resources/sass/jquery-ui.scss', 'public/css/vendor')
+    .browserSync({
+        proxy: 'http://192.168.1.9:8000'
+    })
+    ;
