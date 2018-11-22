@@ -13,9 +13,20 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('root');
 
+
+Route::resource('/restaurants', 'RestaurantController');
 
 //Route for Laravel Log Viewer
 Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 // Need hide behind admin authenication
+
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+// Route::get('/',
+// function () {return view('welcome');},
+// 'as'=>'root'
+// );
