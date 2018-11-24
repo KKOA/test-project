@@ -12,7 +12,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     {{-- jQuery UI --}}
-    {{-- <link rel="stylesheet" href="{{mix('css/jquery-ui.css')}}"> --}}
+    <link rel="stylesheet" href="{{mix('css/vendor/jquery-ui.css')}}">
     @yield('style')
     @stack('style')
 
@@ -32,7 +32,7 @@
     <!-- Scripts -->
     <script src="{{mix('js/app.js')}}"></script>
     <!-- jQuery UI -->
-    {{-- <script src="{{mix('js/jquery-ui.js')}}"></script> --}}
+    <script src="{{mix('js/vendor/jquery-ui.js')}}"></script>
 
     @yield('script')
     @stack('script')
