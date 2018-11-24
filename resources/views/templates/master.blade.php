@@ -20,7 +20,7 @@
 </head>
 <body>
     <div id="app">
-        {{-- @include('includes.nav') --}}
+        @include('includes.nav')
         <main class="py-4">
             <div class="container-fluid">
                 @yield('content')
