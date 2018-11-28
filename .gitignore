@@ -15,8 +15,8 @@ yarn-error.log
 .phpunit.result.cache
 
 # ignore generate css and javascript in public directory
-/public/js/*.js
-/public/css/*.css
+/public/js/*
+/public/css/*
 
 #ignore generate json files
 /public/mix-manifest.json
