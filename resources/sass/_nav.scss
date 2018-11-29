@@ -1,0 +1,180 @@
+// Brand and Login / Register
+.navbar-laravel-light {
+    background-color:white;
+    letter-spacing: 1.2px;
+}
+
+.navbar-brand
+{
+    color:#101010;
+}
+
+#nav-login,
+#nav-register
+{
+    margin-left:5px;
+    margin-right:5px;
+    background:#525A60;
+    color:white;
+    box-shadow: 0 2px 4px grey;
+}
+
+#nav-login:hover,
+#nav-register:hover
+{
+    background-color: #35383B;
+}
+
+// navigation
+
+.navbar-laravel-dark {
+    background-color:#101010;
+    color:white;
+    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 4px grey;
+}
+
+// rotate caret dropmenu when open
+a[aria-expanded='true']::after {
+    border-top: 0;
+	border-right: .3em solid transparent;
+	border-bottom: .3em solid;
+	border-left: .3em solid transparent;
+}
+
+// #navbarSupportedContent .navbar-nav .nav-item
+// {
+//     border:solid 1px #101010;
+//     border-radius:.5rem;
+// }
+
+// #navbarSupportedContent .navbar-nav .nav-item:hover
+// {
+//     border:solid 1px white;
+//     border-radius:.5rem;
+// }
+
+// #navbarSupportedContent .navbar-nav .nav-item:hover a
+// {
+//     color:white;
+// }
+
+//Top Level Active
+#navbarSupportedContent
+{
+
+    a
+    {
+        letter-spacing: 1.2px;
+    }
+
+    .navbar-nav .nav-item:hover
+    {
+        // background:grey;
+        border:solid 2px white;
+    }
+
+    .dropdown.show{
+        background:grey;
+    }
+    .nav-link
+    {
+        color:white;
+    }
+
+
+    .navbar-nav .nav-item
+    {
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        //border:solid 2px white;
+        border:solid 2px #101010;
+        margin-bottom:5px;
+        margin-left:5px;
+        margin-right:5px;
+
+    }
+
+    .navbar-nav .nav-item.show
+    {
+        border:solid 2px white;
+    }
+
+
+
+    .navbar-nav .nav-item.active,
+    {
+        background:#3490dc;
+        // border:solid 2px #3490dc;
+        border:solid 2px white;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        font-weight:bold;
+        margin-bottom:5px;
+
+    }
+    .navbar-nav .nav-item.active > a
+    {
+        color:white;
+    }
+
+
+}
+
+// Submenu Active
+
+#navbarSupportedContent .nav-item
+{
+
+    .dropdown-menu
+    {
+        padding-top:0;
+        padding-bottom:0;
+    }
+
+    .dropdown-menu.show
+    {
+        border: solid 2px #fff;
+        border-radius: 0;
+        box-shadow: 0 2px 4px grey;
+        width:100%;
+    }
+    .dropdown-menu.show:hover
+    {
+        border: solid 2px grey;
+    }
+
+    .dropdown-menu .dropdown-item
+    {
+        border-bottom:2px solid grey;
+    }
+
+    .dropdown-menu .dropdown-item:last-child
+    {
+        border:none;
+    }
+
+    .dropdown-item
+    {
+        color:black;
+        background:white;
+    }
+
+    .dropdown-item:hover
+    {
+        color:white;
+        background:grey;
+    }
+
+    .dropdown-item.active{
+        background-color: #3490dc;
+        // border:solid 2px #3490dc;
+        color:white;
+        font-weight:bold;
+    }
+
+    .dropdown-item.active:hover{
+        background-color: #3490dc;
+        color:white;
+    }
+}
